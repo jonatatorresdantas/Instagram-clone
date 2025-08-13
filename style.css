@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.container-imagens {
+  position: relative;
+  
+}
+
+
+.imagem-celular1 {
+  height: 520px;
+  position: absolute;
+  left: 153px;
+  top: 26px;
+  transition: opacity 2s;
+}
+
+.imagem-celular2 {
+  height: 520px;
+  position: absolute;
+  left: 153px;
+  top: 26px;
+  transition: opacity 2s;
+}
+
+
+
+.img-celular {
+  width: 450px;
+}
+
+
+.img-logo {
+  margin-bottom: 20px;
+}
+
+.container-formulario {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+  padding: 50px 40px 20px 40px;
+  border-radius: 5px;
+  width: 350px;
+}
+
+input {
+  height: 36px;
+  outline: none;
+  border: 1px solid;
+  border-radius: 3px;
+  padding-left: 5px;
+  margin-top: 10px;
+  color: #262626;
+  font-size: 12px;
+  background: #fafafa;
+}
+
+button {
+  background: #0095f6;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.login-facebook {
+  color: #385185;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.esqueceu-senha {
+  font-size: 12px;
+  text-align: center;
+  color: #00376b;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.container-imagens {
+    position: relative;
+}
